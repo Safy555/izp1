@@ -1,0 +1,146 @@
+[
+    {
+        "test_name": "Test ze zadani #1",
+        "status": "ok",
+        "error_message": "",
+        "args": "",
+        "exptected_output": "petr dvorak, 603123456\njana novotna, 777987654\nbedrich smetana ml., 541141120\nxxx+a+xxxxx, 213344\nkarel spacek, +420213333333\naekaeeabbaeaebaeab, 892\n",
+        "stdout": "Petr Dvorak, 603123456\nJana Novotna, 777987654\nBedrich Smetana ml., 541141120\nxxx+a+xxxxx, 213344\nKarel Spacek, +420213333333\naekaeeabbaeaebaeab, 892\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test ze zadani #2",
+        "status": "ok",
+        "error_message": "",
+        "args": "12",
+        "exptected_output": "petr dvorak, 603123456\nbedrich smetana ml., 541141120\n",
+        "stdout": "Petr Dvorak, 603123456\nBedrich Smetana ml., 541141120\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test ze zadani #3",
+        "status": "ok",
+        "error_message": "",
+        "args": "686",
+        "exptected_output": "jana novotna, 777987654\n",
+        "stdout": "Jana Novotna, 777987654\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test ze zadani #4",
+        "status": "ok",
+        "error_message": "",
+        "args": "38",
+        "exptected_output": "petr dvorak, 603123456\nbedrich smetana ml., 541141120\n",
+        "stdout": "Petr Dvorak, 603123456\nBedrich Smetana ml., 541141120\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test ze zadani #5",
+        "status": "ok",
+        "error_message": "",
+        "args": "111",
+        "exptected_output": "Not found\n",
+        "stdout": "Not found\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test standardniho reseni #1",
+        "status": "ok",
+        "error_message": "",
+        "args": "020",
+        "exptected_output": "xxx+a+xxxxx, 213344\n",
+        "stdout": "xxx+a+xxxxx, 213344\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test standardniho reseni #2",
+        "status": "ok",
+        "error_message": "",
+        "args": "0420",
+        "exptected_output": "karel spacek, +420213333333\n",
+        "stdout": "Karel Spacek, +420213333333\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test standardniho reseni #3",
+        "status": "ok",
+        "error_message": "",
+        "args": "232",
+        "exptected_output": "aekaeeabbaeaebaeab, 892\n",
+        "stdout": "aekaeeabbaeaebaeab, 892\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test standardniho reseni #4",
+        "status": "ok",
+        "error_message": "",
+        "args": "779",
+        "exptected_output": "jana novotna, 777987654\n",
+        "stdout": "Jana Novotna, 777987654\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test maximalniho poctu kontaktu #1",
+        "status": "ok",
+        "error_message": "",
+        "args": "",
+        "exptected_output": "aa0aa, 25235453\naa1aa, 25235453\naa2aa, 25235453\naa3aa, 25235453\naa4aa, 25235453\naa5aa, 25235453\naa6aa, 25235453\naa7aa, 25235453\naa8aa, 25235453\naa9aa, 25235453\naa10aa, 25235453\naa11aa, 25235453\naa12aa, 25235453\naa13aa, 25235453\naa14aa, 25235453\naa15aa, 25235453\naa16aa, 25235453\naa17aa, 25235453\naa18aa, 25235453\naa19aa, 25235453\naa20aa, 25235453\naa21aa, 25235453\naa22aa, 25235453\naa23aa, 25235453\naa24aa, 25235453\naa25aa, 25235453\naa26aa, 25235453\naa27aa, 25235453\naa28aa, 25235453\naa29aa, 25235453\naa30aa, 25235453\naa31aa, 25235453\naa32aa, 25235453\naa33aa, 25235453\naa34aa, 25235453\naa35aa, 25235453\naa36aa, 25235453\naa37aa, 25235453\naa38aa, 25235453\naa39aa, 25235453\naa40aa, 25235453\naa41aa, 25235453\n",
+        "stdout": "aa0aa, 25235453\naa1aa, 25235453\naa2aa, 25235453\naa3aa, 25235453\naa4aa, 25235453\naa5aa, 25235453\naa6aa, 25235453\naa7aa, 25235453\naa8aa, 25235453\naa9aa, 25235453\naa10aa, 25235453\naa11aa, 25235453\naa12aa, 25235453\naa13aa, 25235453\naa14aa, 25235453\naa15aa, 25235453\naa16aa, 25235453\naa17aa, 25235453\naa18aa, 25235453\naa19aa, 25235453\naa20aa, 25235453\naa21aa, 25235453\naa22aa, 25235453\naa23aa, 25235453\naa24aa, 25235453\naa25aa, 25235453\naa26aa, 25235453\naa27aa, 25235453\naa28aa, 25235453\naa29aa, 25235453\naa30aa, 25235453\naa31aa, 25235453\naa32aa, 25235453\naa33aa, 25235453\naa34aa, 25235453\naa35aa, 25235453\naa36aa, 25235453\naa37aa, 25235453\naa38aa, 25235453\naa39aa, 25235453\naa40aa, 25235453\naa41aa, 25235453\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test maximalniho poctu kontaktu #2",
+        "status": "ok",
+        "error_message": "",
+        "args": "",
+        "exptected_output": "",
+        "stdout": "aa0aa, 25235453\naa1aa, 25235453\naa2aa, 25235453\naa3aa, 25235453\naa4aa, 25235453\naa5aa, 25235453\naa6aa, 25235453\naa7aa, 25235453\naa8aa, 25235453\naa9aa, 25235453\naa10aa, 25235453\naa11aa, 25235453\naa12aa, 25235453\naa13aa, 25235453\naa14aa, 25235453\naa15aa, 25235453\naa16aa, 25235453\naa17aa, 25235453\naa18aa, 25235453\naa19aa, 25235453\naa20aa, 25235453\naa21aa, 25235453\naa22aa, 25235453\naa23aa, 25235453\naa24aa, 25235453\naa25aa, 25235453\naa26aa, 25235453\naa27aa, 25235453\naa28aa, 25235453\naa29aa, 25235453\naa30aa, 25235453\naa31aa, 25235453\naa32aa, 25235453\naa33aa, 25235453\naa34aa, 25235453\naa35aa, 25235453\naa36aa, 25235453\naa37aa, 25235453\naa38aa, 25235453\naa39aa, 25235453\naa40aa, 25235453\naa41aa, 25235453\naa42aa, 25235453\naa43aa, 25235453\naa44aa, 25235453\naa45aa, 25235453\naa46aa, 25235453\naa47aa, 25235453\naa48aa, 25235453\naa49aa, 25235453\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test na delku radku #1",
+        "status": "ok",
+        "error_message": "",
+        "args": "",
+        "exptected_output": "",
+        "stdout": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX, X\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test na delku radku #2",
+        "status": "ok",
+        "error_message": "",
+        "args": "",
+        "exptected_output": "",
+        "stdout": "X, 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111\n",
+        "stderr": ""
+    },
+    {
+        "test_name": "Test argumentu #1",
+        "status": "ok",
+        "error_message": "",
+        "args": "tf",
+        "exptected_output": "",
+        "stdout": "",
+        "stderr": "False input -> please input sequence of digits from 0 to 9.\n"
+    },
+    {
+        "test_name": "Test argumentu #2",
+        "status": "ok",
+        "error_message": "",
+        "args": "t00f",
+        "exptected_output": "",
+        "stdout": "",
+        "stderr": "False input -> please input sequence of digits from 0 to 9.\n"
+    },
+    {
+        "test_name": "Test argumentu #3",
+        "status": "ok",
+        "error_message": "",
+        "args": "1231 ff pp",
+        "exptected_output": "",
+        "stdout": "",
+        "stderr": "False input -> please use syntax './tnine CISLO <seznam.txt'.\n"
+    }
+]
